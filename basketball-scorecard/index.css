@@ -1,0 +1,41 @@
+@font-face {font-family: Cursed Timer ULil; src: url('CursedTimerUlil-Aznm.ttf')}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#score-home,#score-guest{
+    display: flex;
+    height: 120px;
+    width: 150px;
+    background: #080001;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cursed Timer ULil', sans-serif;
+    font-size: 700%;
+}
+
+#score-btn{
+    margin-top: 30px;
+}
+
+#btn{
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    padding: 9px;
+    border-radius: 5px;
+    margin:0px 5px 0px 5px;
+    font-family: 'Cursed Timer ULil', sans-serif;
+}
